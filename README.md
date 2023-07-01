@@ -15,12 +15,19 @@ The architecture includes following AWS services:
 - Amazon Cloudwatch(optional): to trigger Lambda jobs on a schedule. Eventbridge can be used instead
 Not included but also used are:
 - Amazon Elastic Container Repository, to store Docker images for Lambdas, Airflow and dbt
+- Secret Manager
+- IAM
 
 ## Repository Structure
-The repository contains
+The repository contains three folders: a, b, c. 
 
-### Lambda 
+However, it does not include terraform infra code that 
+
+### Lambda functions
 Ipsum lorem
 
 ### Glue jobs
+Ipsum lorem
+
+### Airflow DAGs
 Ipsum lorem
