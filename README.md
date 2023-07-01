@@ -20,7 +20,7 @@ Not included but also used are:
 - IAM
 
 ## Repository Structure
-The repository contains three folders: [lamba_src](lambda_src/lambda_function), [glue_src](https://github.com/harold-dansu/aws-datawarehouse-and-datalake/tree/main/glue_src/glue_jobs), and [airflow_pipelines](https://github.com/harold-dansu/aws-datawarehouse-and-datalake/tree/main/airflow_pipelines). 
+The repository contains three folders: [lamba_src](lambda_src/lambda_function), [glue_src](glue_src/glue_jobs), and [airflow_pipelines](airflow_pipelines). 
 
 However, it does not include Terraform or AWS CDK code to deploy architecture (such as IAM roles & policies, VPCs, bucket creation, etc) from scratch.
 
