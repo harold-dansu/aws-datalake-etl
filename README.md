@@ -25,10 +25,10 @@ The repository contains three folders: [lamba_src](lambda_src/lambda_function), 
 However, it does not include Terraform or AWS CDK code to deploy architecture (such as IAM roles & policies, VPCs, bucket creation, etc) from scratch.
 
 ### Lambda functions
-The lambda_src folder contains 
+The `lambda_src` folder contains 
 
 ### Glue jobs
-The glue_src folder contains 
+The `glue_src` folder contains 
 
 ### Airflow DAGs
-The airflow_pipelines folder contains 
+The `airflow_pipelines` folder contains 
