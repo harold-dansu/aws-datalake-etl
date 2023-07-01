@@ -1,6 +1,6 @@
 # AWS Data Warehouse
 
-This repository demonstrates code to build pipelines to ingest, transform, store, query, and egress data in AWS. 
+This repository demonstrates how to build robust enterprise scale AWS pipelines for data ingestion, transformation, storage, querying, and egress. 
 
 ## Overview
 <img width="722" alt="architecture_v0" src="https://github.com/harold-dansu/aws-datalake-etl/assets/104161947/54ad0216-5fc5-4d05-baa0-6df25e1bb744">
@@ -20,15 +20,15 @@ Not included but also used are:
 - IAM
 
 ## Repository Structure
-The repository contains three folders: a, b, c. 
+The repository contains three folders: [lamba_src](lambda_src/lambda_function), [glue_src](https://github.com/harold-dansu/aws-datawarehouse-and-datalake/tree/main/glue_src/glue_jobs), and [airflow_pipelines](https://github.com/harold-dansu/aws-datawarehouse-and-datalake/tree/main/airflow_pipelines). 
 
-However, it does not include terraform infra code that 
+However, it does not include Terraform or AWS CDK code to deploy architecture (such as IAM roles & policies, VPCs, bucket creation, etc) from scratch.
 
 ### Lambda functions
-Ipsum lorem
+The lambda_src folder contains 
 
 ### Glue jobs
-Ipsum lorem
+The glue_src folder contains 
 
 ### Airflow DAGs
-Ipsum lorem
+The airflow_pipelines folder contains 
