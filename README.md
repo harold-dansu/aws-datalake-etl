@@ -25,10 +25,10 @@ The repository contains three folders: [`lamba_src`](lambda_src/lambda_function)
 However, it does not include Terraform or AWS CDK code to deploy architecture (such as IAM roles & policies, VPCs, bucket creation, etc) from scratch.
 
 ### Lambda functions
-The `lambda_src` folder contains an example python lambda function that retrieves credentials from Secrets Manager to access and service, query an endpoint, and store the result as a csv file in S3. The folder also contains a docker image that is used in combination with ['AWS CDK code'](cdk) to deploy the function via CI/CD pipeline.
+The `lambda_src` folder contains an example python lambda function that retrieves credentials from Secrets Manager to access and service, query an endpoint, and store the result as a csv file in S3. The folder also contains a docker image that is used in combination with [`AWS CDK`](cdk) to deploy the function via CI/CD pipeline.
 
 ### Glue jobs
-The `glue_src` folder contains 
+The `glue_src` folder contains a pair of glue jobs. [One job](glue_src/glue_jobs/s3_to_s3_cleaning_deduplication.py) performs data processing (data cleaning, deduplication, type conversion, null checks, etc) and stores the result in a different s3 folder. The [other job](glue_src/glue_jobs/s3_to_redshift.py) uploads proessed data into Redshift. The latter job can be used for uploads where rigorous orchestration is not required.
 
 ### Airflow DAGs
 The `airflow_pipelines` folder contains 
