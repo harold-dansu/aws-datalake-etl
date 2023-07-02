@@ -14,9 +14,9 @@ The architecture includes following AWS services:
 - Amazon Cloudwatch(optional): to trigger Lambda jobs on a schedule. Eventbridge can be used instead
 
 Not included but also used are:
-• Amazon Elastic Container Repository: to store Docker images for Lambdas, Airflow and dbt
-• AWS Secrets Manager: to manage, retrieve, and rotate credentials tokens, and API keys
-• AWS Identity and Access Management (IAM): for fine-grained permissions to services and resources 
+* Amazon Elastic Container Repository: to store Docker images for Lambdas, Airflow and dbt
+* AWS Secrets Manager: to manage, retrieve, and rotate credentials tokens, and API keys
+* AWS Identity and Access Management (IAM): for fine-grained permissions to services and resources 
 
 ## Repository Structure
 The repository contains three folders: [`lamba_src`](lambda_src/lambda_function), [`glue_src`](glue_src/glue_jobs), and [`airflow_pipelines`](airflow_pipelines). 
