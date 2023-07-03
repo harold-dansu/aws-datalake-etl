@@ -3,7 +3,8 @@
 This repository demonstrates how to build robust enterprise scale AWS pipelines for data ingestion, transformation, storage, querying, and egress. 
 
 ## Overview
-<img width="1057" alt="aws_architecture" src="https://github.com/harold-dansu/aws-datawarehouse-and-datalake/assets/104161947/1ae4e19b-c3a7-456c-b71f-c75e0f043d53">
+<img width="1067" alt="aws_architecture" src="https://github.com/harold-dansu/aws-datawarehouse-and-datalake/assets/104161947/e5586066-5da3-453f-8be8-de9b3ff9da5c">
+
 
 
 
